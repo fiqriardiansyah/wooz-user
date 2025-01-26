@@ -35,7 +35,7 @@ export default function Otp() {
     const CountdownMemo = React.useMemo(() => (
         <Countdown 
             key={randomId}
-            date={Date.now() + 1000 * 2} renderer={(props) => {
+            date={Date.now() + 1000 * 60} renderer={(props) => {
                 if(maxOtp === 0) return <p className='text-red-400 italic text-sm ml-3'>OTP reach max</p>
                 if(props?.completed) {
                     return (
