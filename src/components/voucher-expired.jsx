@@ -32,7 +32,7 @@ export default function VoucherExpired() {
             <p className='text-2xl font-bold mb-10'>Oops! Voucher Expired            </p>
             <img src={Errorimg} className='h-[200px]' alt="" />
             <p className='text-sm'>Kode Voucher sudah pernah dipakai            </p>
-            <input type="text" name="voucher" className={`bg-gray-200 my-4 rounded-lg p-3 px-20 text-center text-gray-700 ${error ? 'border border-red-400 border-solid' : ""}`} placeholder='INPUT ULANG' />
+            <input type="text" name="voucher" className={`bg-gray-200 my-4 rounded-lg p-3 lg:px-20 px-10 text-center text-gray-700 ${error ? 'border border-red-400 border-solid' : ""}`} placeholder='INPUT ULANG' />
             <p className='mt-3 text-center text-sm'>
                 Belum punya  voucher? <br />
                 Beli di counter Woozz terdekat atau <a href="#" className='font-semibold'>hubungi admin</a></p>

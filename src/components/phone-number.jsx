@@ -40,7 +40,7 @@ export default function PhoneNumber() {
                 <p className='text-lg'>Masukkan No.HP mu :                </p>
                 <input 
                   type="text" onKeyDown={handleKeyDown} onChange={handleChange} placeholder="Cth: 0812423445356" 
-                  className={`bg-white rounded-lg p-3 px-20 text-center text-gray-400 ${error ? 'border border-red-400 border-solid' : ""}`} />
+                  className={`bg-white rounded-lg p-3 lg:px-20 px-10 text-center text-gray-400 ${error ? 'border border-red-400 border-solid' : ""}`} />
                 {error && <p className='text-red-400'>{error}</p>}
                 <button onClick={onSend} className='bg-blue-900 text-white rounded-lg p-3 w-[200px] lg:w-[300px] cursor-pointer'>
                 Kirim kode OTP via SMS
