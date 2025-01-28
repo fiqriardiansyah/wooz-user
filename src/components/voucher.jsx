@@ -30,7 +30,7 @@ export default function Voucher() {
             <form onSubmit={onSubmit} className="bg-gray-200 rounded-2xl p-8 flex flex-col gap-4 items-center mt-5">
                 <p className='text-sm'>Masukkan kode voucher paket woozz yang kamu miliki                </p>
                 <input type="text" name='voucher' className={`bg-white rounded-lg p-3 px-20 text-center text-gray-400 ${error ? 'border border-red-400 border-solid' : ""}`} />
-                <button type='submit' className='bg-blue-900 text-white rounded-lg p-3 w-[300px] cursor-pointer'>
+                <button type='submit' className='bg-blue-900 text-white rounded-lg p-3 w-[200px] lg:w-[300px] cursor-pointer'>
                     Submit
                 </button>
                 <p className='mt-3 text-center text-sm'>

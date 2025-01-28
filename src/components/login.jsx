@@ -38,10 +38,10 @@ export default function Login() {
                 <p className='text-sm text-start'>Nomor Handphone</p>
                 </div>
                 <input type="text" onKeyDown={handleKeyDown} onChange={handleChange} placeholder="Cth: 0812423445356" className={`bg-white rounded-lg p-3 px-20 text-center text-gray-400 ${error ? 'border border-red-400 border-solid' : ""}`} />
-                <button onClick={onClick} className='bg-blue-900 text-white rounded-lg p-3 w-[300px] cursor-pointer'>
+                <button onClick={onClick} className='bg-blue-900 text-white rounded-lg p-3 w-[200px] lg:w-[300px] cursor-pointer'>
                 Kirim kode OTP via SMS
                 </button>
-                <button onClick={onClick} className='bg-green-600 text-white rounded-lg p-3 w-[300px] cursor-pointer'>
+                <button onClick={onClick} className='bg-green-600 text-white rounded-lg p-3 w-[200px] lg:w-[300px] cursor-pointer'>
                 Kirim kode OTP ke Whatsapp
                 </button>
             </div>

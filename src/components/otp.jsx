@@ -63,7 +63,7 @@ export default function Otp() {
                 />
             <p className='my-5 text-sm'>Masukkan 5 digit kode OTP yang kami kirimkan ke Handphone mu.            </p>
             <div className='w-full h-[1px] bg-gray-100' />
-            <button onClick={onSend} className='bg-blue-900 text-white rounded-lg p-3 w-[300px] cursor-pointer'>
+            <button onClick={onSend} className='bg-blue-900 text-white rounded-lg p-3 w-[200px] lg:w-[300px] cursor-pointer'>
                 Input Kode
             </button>
             <p className='mt-3 flex items-center'>Tidak dapat kode? {CountdownMemo}</p>
