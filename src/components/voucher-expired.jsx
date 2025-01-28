@@ -28,7 +28,7 @@ export default function VoucherExpired() {
 
     return (
         <form onSubmit={onSubmit} className="flex flex-col items-center">
-            <img src={Woozimg} className='ml-4' alt="" />
+            <img src={Woozimg} className='ml-4 h-[100px]' alt="" />
             <p className='text-2xl font-bold mb-10'>Oops! Voucher Expired            </p>
             <img src={Errorimg} className='h-[200px]' alt="" />
             <p className='text-sm'>Kode Voucher sudah pernah dipakai            </p>

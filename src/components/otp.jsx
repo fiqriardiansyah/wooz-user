@@ -51,7 +51,7 @@ export default function Otp() {
     
     return (
         <div className="flex flex-col items-center">
-           <img src={Woozimg} className='ml-4' alt="" />
+           <img src={Woozimg} className='ml-4 h-[100px]' alt="" />
            <p className='text-2xl font-bold mb-10'>Input Kode OTP</p>
            <OtpInput
                 shouldAutoFocus

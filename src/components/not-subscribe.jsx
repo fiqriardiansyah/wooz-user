@@ -22,7 +22,7 @@ export default function NotSubscribe() {
 
     return (
         <div className="flex flex-col items-center">
-            <img src={Woozimg} className='ml-4' alt="" />
+            <img src={Woozimg} className='ml-4 h-[100px]' alt="" />
             <p className='text-sm'>Hi, 081519999082            </p>
             <p className='text-sm'>Kamu belum berlangganan paket apapun             </p>
             <img src={Dizzyimg} className='h-[200px] my-5' alt="" />

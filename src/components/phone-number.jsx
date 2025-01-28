@@ -33,7 +33,7 @@ export default function PhoneNumber() {
 
     return (
         <div className="flex flex-col items-center">
-            <div className='flex items-center font-bold text-2xl'>Selamat Datang Di <img src={Woozimg} className='ml-4' alt="" /> </div>
+            <div className='flex items-center font-bold text-2xl'>Selamat Datang Di <img src={Woozimg} className='ml-4 h-[100px]' alt="" /> </div>
             <p className='text-center'>Internet Unlimited Cepat dan Stabil</p>
             <div className="bg-gray-200 rounded-2xl p-8 flex flex-col gap-4 items-center mt-5">
                 <p className='text-sm'>Untuk mengakses jaringan kami membutuhkan verifikasi                </p>

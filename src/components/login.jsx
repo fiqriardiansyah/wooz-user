@@ -30,7 +30,7 @@ export default function Login() {
 
     return (
         <div className="flex flex-col items-center">
-            <img src={Woozimg} className='ml-4' alt="" />
+            <img src={Woozimg} className='ml-4 h-[100px]' alt="" />
             <p className='text-center'>Internet Unlimited Cepat dan Stabil</p>
             <div className="bg-gray-200 rounded-2xl p-8 flex flex-col gap-4 items-center mt-5">
                 <p className='text-sm'>LOGIN / DAFTAR</p>

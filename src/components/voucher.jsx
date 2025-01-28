@@ -25,7 +25,7 @@ export default function Voucher() {
     
     return (
         <div className="flex flex-col items-center">
-            <img src={Woozimg} className='ml-4' alt="" />
+            <img src={Woozimg} className='ml-4 h-[100px]' alt="" />
             <p className='text-2xl font-bold mb-10'>Masukkan kode voucher</p>
             <form onSubmit={onSubmit} className="bg-gray-200 rounded-2xl p-8 flex flex-col gap-4 items-center mt-5">
                 <p className='text-sm'>Masukkan kode voucher paket woozz yang kamu miliki                </p>

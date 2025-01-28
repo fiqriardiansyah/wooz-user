@@ -16,7 +16,7 @@ export default function VoucherSuccess() {
 
     return (
         <div className="flex flex-col items-center">
-            <img src={Woozimg} className='ml-4' alt="" />
+            <img src={Woozimg} className='ml-4 h-[100px]' alt="" />
             <p className='text-2xl font-bold mb-10'>Yeay! Voucher mu berhasil di redeem</p>
             <img src={Successimg} className='h-[200px]' alt="" />
             <p className='text-sm my-5'>Mau cek paket aktif mu?</p>

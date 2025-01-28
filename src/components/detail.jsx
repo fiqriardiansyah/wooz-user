@@ -14,7 +14,7 @@ export default function Detail() {
             };
     return (
         <div className="flex flex-col items-center">
-            <img src={Woozimg} className='ml-4' alt="" />
+            <img src={Woozimg} className='ml-4 h-[100px]' alt="" />
             <p className='text-sm'>Hi, 081519999082            </p>
             <p className='text-sm my-5'>Paket mu saat ini :            </p>
             <div className="overflow-x-auto">
